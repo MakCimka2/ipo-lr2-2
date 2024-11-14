@@ -1,9 +1,6 @@
-n= int(input("Введите кол-во школьников"))
-k= int(input("Введите кол-во яблок"))
-everyone=(k//n)
-print(f'{everyone} яблоко каждому  из школьников')
-ostatok=k%n
-if n%k !=0:
- print(f'{ostatok} яблок осталось в корзине')
-if n>k:
- print('яблок не хватает на всех')
+n = int(input("Сколько школьнииков "))
+k = int(input("Сколько яблок"))
+shkolnikov = k//n
+yablo4ek = k%n
+print("Достанется каждому", shkolnikov)
+print("Останется в корзине",yablo4ek)
